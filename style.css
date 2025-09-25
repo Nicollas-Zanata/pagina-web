@@ -25,6 +25,7 @@ body {
     display:flex;
     justify-content: center;
     }
+    
 .box:hover{
    background-color: #fc0808;
    border-radius: 50%;   
