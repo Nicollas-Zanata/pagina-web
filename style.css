@@ -1,0 +1,54 @@
+body {
+    background: #ffffff;
+    color: #ccc;
+     place-items: center
+ 
+}
+.paragrafo{
+    font-size: 48px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-style:oblique;
+    color: rgb(0, 0, 0);
+    box-shadow: #2ada07;
+    text-align: center
+}
+.box{
+    height:80vh;
+    width:80vh;
+    transition-property: background-color, border-radius ;
+    transition-property: calc(100) ;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;
+    background-color: rgb(2, 197, 34);
+    display:flex;
+    justify-content: center;
+    }
+.box:hover{
+   background-color: #fc0808;
+   border-radius: 50%;   
+    }
+.cubosl2{height:10vh;
+    width:10vh;
+    background-color: rgb(35, 105, 47);
+    display:flex;
+    justify-content: center;
+    border-radius: 20%;
+    }
+.cubosl3{height:10vh;
+    width:10vh;
+    background-color: rgb(35, 105, 47);
+    display:flex;
+    justify-content: center;
+    border-radius: 20%;
+    }
+.ifsp{
+    font-size: 64px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-style:oblique;
+}
