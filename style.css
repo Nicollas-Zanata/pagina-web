@@ -35,25 +35,22 @@ body {
     flex-direction: column;
 }
 
-.cubosl2{height:10vw;
-    width:5vw;
+.cubosl2{height:10vh;
+    width:6vw;
     background-color: rgb(35, 105, 47);
-    display:flex;
     justify-content: center;
     border-radius: 20%;
     }
 .cubosl3{height:10vh;
-    width:5vw;
+    width:6vw;
     background-color: rgb(35, 205, 47);
-    display:flex;
     justify-content: center;
     border-radius: 20%;
     }
 .cubosl4{
     height:10vh;
-    width:5vw;
+    width:6vw;
     background-color: rgb(35, 05, 47);
-    display:flex;
     justify-content: center;
     border-radius: 20%;
     }
