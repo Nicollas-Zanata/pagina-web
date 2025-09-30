@@ -24,25 +24,37 @@ body {
     background-color: rgb(2, 197, 34);
     display:flex;
     justify-content: center;
+    flex-direction: row;
     }
     
 .box:hover{
    background-color: #fc0808;
    border-radius: 50%;   
     }
-.cubosl2{height:10vh;
-    width:10vh;
+.cubosl2{height:10vw;
+    width:10vw;
     background-color: rgb(35, 105, 47);
     display:flex;
     justify-content: center;
     border-radius: 20%;
+    flex-direction: row;
     }
 .cubosl3{height:10vh;
-    width:10vh;
+    width:10vw;
+    background-color: rgb(35, 205, 47);
+    display:flex;
+    justify-content: center;
+    border-radius: 20%;
+    flex-direction: row;
+    }
+.cubosl2{
+    height:10vh;
+    width:10vw;
     background-color: rgb(35, 105, 47);
     display:flex;
     justify-content: center;
     border-radius: 20%;
+    flex-direction: row;
     }
 .ifsp{
     font-size: 64px;
