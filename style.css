@@ -16,7 +16,7 @@ body {
 }
 .box{
     height:80vh;
-    width:80vh;
+    width:80vw;
     transition-property: background-color, border-radius ;
     transition-property: calc(100) ;
     transition-duration: 2s;
@@ -24,13 +24,16 @@ body {
     background-color: rgb(2, 197, 34);
     display:flex;
     justify-content: center;
-    flex-direction: column;
     }
     
 .box:hover{
    background-color: #fc0808;
    border-radius: 50%;   
     }
+.mae{
+    display: flex;
+    flex-direction: column;
+}
 
 .cubosl2{height:10vw;
     width:5vw;
