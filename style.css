@@ -24,7 +24,7 @@ body {
     background-color: rgb(2, 197, 34);
     display:flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     }
     
 .box:hover{
@@ -33,29 +33,26 @@ body {
     }
 
 .cubosl2{height:10vw;
-    width:10vw;
+    width:5vw;
     background-color: rgb(35, 105, 47);
     display:flex;
     justify-content: center;
     border-radius: 20%;
-    flex-direction: column;
     }
 .cubosl3{height:10vh;
-    width:10vw;
+    width:5vw;
     background-color: rgb(35, 205, 47);
     display:flex;
     justify-content: center;
     border-radius: 20%;
-    flex-direction: row;
     }
-.cubosl2{
+.cubosl4{
     height:10vh;
-    width:10vw;
-    background-color: rgb(35, 105, 47);
+    width:5vw;
+    background-color: rgb(35, 05, 47);
     display:flex;
     justify-content: center;
     border-radius: 20%;
-    flex-direction: row;
     }
 .ifsp{
     font-size: 64px;
