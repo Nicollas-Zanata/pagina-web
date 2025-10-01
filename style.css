@@ -21,7 +21,7 @@ body {
     transition-property: calc(100) ;
     transition-duration: 2s;
     transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;
-    background-color: rgb(2, 197, 34);
+    background-color: rgb(35, 105, 47);
     display:flex;
     justify-content: center;
     }
@@ -33,27 +33,56 @@ body {
 .mae{
     display: flex;
     flex-direction: column;
+    transform: translateY(20vh)
+}
+.Ls1{
+    display: flex;
+    flex-direction: row;
 }
 .Ls2{
     display: flex;
     flex-direction: row;
 }
-.cubosl2{height:10vh;
-    width:6vw;
+.Ls3{
+    display: flex;
+    flex-direction: row;
+}
+.Ls4{
+    display: flex;
+    flex-direction: row;
+}
+.circulol1{
+    height:10vh;
+    width:5.5vw;
+    background-color:  #fc0808;
+    justify-content: center;
+    border-radius: 100%;
+}
+.cubosl1{
+    height:10vh;
+    width:5.5vw;
     background-color: rgb(35, 105, 47);
     justify-content: center;
     border-radius: 20%;
     }
-.cubosl3{height:10vh;
-    width:6vw;
-    background-color: rgb(35, 205, 47);
+.cubosl2{
+    height:10vh;
+    width:5.5vw;
+    background-color: rgb(35, 105, 47);
+    justify-content: center;
+    border-radius: 20%;
+    }
+.cubosl3{
+    height:10vh;
+    width:5.5vw;
+    background-color: rgb(35, 105, 47);
     justify-content: center;
     border-radius: 20%;
     }
 .cubosl4{
     height:10vh;
-    width:6vw;
-    background-color: rgb(35, 05, 47);
+    width:5.5vw;
+    background-color: rgb(35, 105, 47);
     justify-content: center;
     border-radius: 20%;
     }
